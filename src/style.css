@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100%;
+  width: 100%;
+}
+
+.editor {
+  height: calc(100vh - 400px);
+  background: #1e1e1e;
+}
+.terminal {
+  height: 400px
+}
